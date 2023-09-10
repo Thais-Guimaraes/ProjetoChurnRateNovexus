@@ -12,6 +12,7 @@ Desta forma, possibilitará que a empresa tome estratégias para impedir que iss
 Segue abaixo uma visão macro das atividades:
 
 Parte 1:
+
 Definição do Problema de Negócio
 
 Entendimento dos Dados
