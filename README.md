@@ -13,8 +13,13 @@ Segue abaixo uma visão macro das atividades:
 
 Parte 1:
 Definição do Problema de Negócio
+
 Entendimento dos Dados
+
 Verificar e corrigir inconsistências nos dados
+
 Analisar a distribuição das variáveis
+
 Analisar quais variáveis influenciam na Taxa de Churn
+
 Analisar a variável alvo
