@@ -7,7 +7,7 @@ O objetivo é contribuir na tomada de decisão a respeito das estratégias que a
 
 E para isso, neste projeto de ciência de dados, o objetivo será criar um modelo de machine learning capaz de identificar a probabilidade do cliente cancelar a assinatura com a empresa.
 
-Desta forma, possibilitará que a empresa tome estratégias para impedir que isso ocorro.
+Desta forma, possibilitará que a empresa tome açoes para impedir que isso ocorra.
 
 Segue abaixo uma visão macro das atividades:
 
