@@ -1,4 +1,5 @@
 # ProjetoChurnRateNovexus
+<<<<<<< HEAD
 
 Este projeto faz parte do Challenge Alura Dados.
 
@@ -41,3 +42,6 @@ E o modelo utilizado foi o modelo salvo no train.py
 A ideia seria aplicar várias técnicas aprendidas até então, por isso, também utilizei expressões regulares na parte de transformação dos dados.
 
 
+=======
+
+>>>>>>> fdb0047b210c946f3503879a0324ff3f84d64465
