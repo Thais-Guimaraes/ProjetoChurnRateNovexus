@@ -5,7 +5,13 @@ from PIL import Image
 import os
 import re
 
-project_directory = os.path.dirname(__file__)
+if "STREAMLIT_APP_NAME" in os.environ:
+    # Ambiente do Streamlit Cloud
+    project_directory = os.environ.get("STREAMLIT_APP_NAME", "")
+else:
+    # Ambiente local
+    project_directory = os.path.dirname(__file__)
+#project_directory = os.path.dirname(__file__)
 modelos_directory = os.path.join(project_directory, '../modelos')
 pipeline_directory = os.path.join(project_directory, '../pipeline')
 imagens_directory = os.path.join(project_directory, '../imagens')
