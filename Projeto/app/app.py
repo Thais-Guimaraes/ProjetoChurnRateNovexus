@@ -95,9 +95,11 @@ def main():
     data = form_data()
     
     # Obtendo o modelo treinado
-    model_path = os.path.join(modelos_directory, 'model_final.pkl')
-
+    #model_path = os.path.join(modelos_directory, 'model_final.pkl')
+    model_path = os.path.join(os.path.abspath(modelos_directory), 'model_final.pkl')
     model = pickle.load(open(model_path, 'rb'))
+    
+
     
     ## Realizar o processo de ONE HOT ENCODER manualmente, porque os novos dados não terão todas as categorias, o pipeline não funcionaria
     
